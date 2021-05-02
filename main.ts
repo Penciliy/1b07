@@ -1,0 +1,26 @@
+basic.forever(function () {
+    robotbit.MotorRunDual(
+    robotbit.Motors.M1A,
+    150,
+    robotbit.Motors.M1A,
+    -150
+    )
+    robotbit.MotorRunDual(
+    robotbit.Motors.M1A,
+    -150,
+    robotbit.Motors.M1A,
+    150
+    )
+    robotbit.MotorRunDual(
+    robotbit.Motors.M1A,
+    -150,
+    robotbit.Motors.M1A,
+    0
+    )
+    robotbit.MotorRunDual(
+    robotbit.Motors.M1A,
+    150,
+    robotbit.Motors.M1A,
+    0
+    )
+})
